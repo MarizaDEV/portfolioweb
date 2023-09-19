@@ -1,0 +1,83 @@
+.car {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.card,
+.card2,
+.card3 {
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.front,
+.back,
+.front2,
+.back2,
+.front3,
+.back3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: all 1s;
+  border: 2px solid #75161600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.front {
+  background: url(./imagens/cads/cardcapa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.back {
+  background: url(./imagens/cads/cardcoelho.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  transform: rotateY(-180deg);
+}
+
+.front2 {
+  background: url(./imagens/cads/cardcapa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.back2 {
+  background: url(./imagens/cads/cardgato.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  transform: rotateY(-180deg);
+}
+
+.front3 {
+  background: url(./imagens/cads/cardcapa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.back3 {
+  background: url(./imagens/cads/cardovelha.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  transform: rotateY(-180deg);
+}
+
+.card:hover .back,
+.card2:hover .back2,
+.card3:hover .back3 {
+  transform: rotateY(0);
+}
