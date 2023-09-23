@@ -176,4 +176,19 @@ a {
   }
 }
 
+@media (min-width: 200px) and (max-width: 399px) {
+  nav {
+    font-size: 12px;
+  }
 
+  .footer2 {
+    font-size: 11px;
+  }
+
+  .design img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+  }
+
+}

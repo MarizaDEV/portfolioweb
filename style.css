@@ -349,8 +349,23 @@ a {
   }
 }
 
-@media (min-width: 360px) and (max-width: 1169px) {
+@media (min-width: 290px) and (max-width: 1169px) {
   .cards {
     height: auto;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 399px) {
+  .card .img-box img {
+    width: 200px;
+    height: auto;
+  }
+
+  nav {
+    font-size: 12px;
+  }
+
+  .footer2 {
+   font-size: 11px;
   }
 }

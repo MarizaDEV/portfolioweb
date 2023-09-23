@@ -67,6 +67,7 @@ header {
   margin: 10px 0;
   flex-wrap: wrap;
 }
+
 .embalagens {
   display: flex;
   justify-content: center;
@@ -74,6 +75,7 @@ header {
   margin: 15px 0;
   flex-wrap: wrap;
 }
+
 .embalagens img {
   width: 450px;
   height: auto;
@@ -111,6 +113,7 @@ header {
     flex: 100%;
     max-width: 100%;
   }
+
   .socialmedia img {
     width: 210px;
     height: auto;
@@ -193,6 +196,7 @@ a {
     flex: 100%;
     max-width: 100%;
   }
+
   .embalagens img {
     width: 200px;
     height: auto;
@@ -204,4 +208,30 @@ a {
     width: 190px;
     height: auto;
   }
+}
+
+@media (min-width: 200px) and (max-width: 399px) {
+  nav {
+    font-size: 12px;
+  }
+
+  .footer2 {
+    font-size: 11px;
+  }
+
+  .borderblack-2 img {
+    width: 100px;
+    height: auto;
+  }
+
+  .socialmedia img {
+    width: 180px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .emb {
+    font-size: 20px;
+  }
+
 }
